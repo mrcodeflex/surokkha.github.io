@@ -28,9 +28,11 @@ ul li {
 a {
     text-decoration: none;
 }
-p{
+
+p {
     margin: 0
 }
+
 img {
     max-width: 100%;
     max-height: 100%
@@ -50,7 +52,7 @@ banner/  hero section css
     background-image: url(assets/images/banner-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-padding: 50px 0;
+    padding: 50px 0;
 }
 
 .hero-wrapper {
@@ -59,12 +61,12 @@ padding: 50px 0;
     justify-content: space-between;
     align-items: center;
 
-    
+
 }
 
 .hero-main-box {
     background-color: #fff;
-    border-radius: 
+    border-radius:
         5px;
     padding: 30px;
     position: relative;
@@ -155,17 +157,19 @@ cta section
     margin-top: -5vh;
     z-index: 2;
     background: #fff;
-    box-shadow: 0 4px 4px hsla(0,0%,72.5%,.25);
-    
+    box-shadow: 0 4px 4px hsla(0, 0%, 72.5%, .25);
+
     display: flex;
     justify-content: center;
     align-items: center
 }
-.cta-single-item{
+
+.cta-single-item {
     margin: 10px auto;
     border-right: solid 1px #0d7b2c
 }
-.border-none{
+
+.border-none {
     border: none
 }
 
@@ -197,7 +201,7 @@ about section
 
 .about-wrapper {
     background: #fff;
-    box-shadow: 0 4px 4px hsla(0,0%,72.5%,.25);
+    box-shadow: 0 4px 4px hsla(0, 0%, 72.5%, .25);
     border-radius: 5px;
     margin-top: 60px;
     padding: 50px;
@@ -220,34 +224,35 @@ about section
     background: #ff483c;
 }
 
-.about-content img{
+.about-content img {
     margin: 20px 0
 }
-.ab-cntnt-title h4{
+
+.ab-cntnt-title h4 {
     font-size: 18px;
     font-weight: 700;
     line-height: 21px;
     color: #212529
-    
 }
-.ab-cntnt-p p{
+
+.ab-cntnt-p p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #212529;
     padding: 10px 0
-    
 }
 
 /*=========
 gallery section
 ==========*/
 
-.gallery{
+.gallery {
     padding: 30px 0;
-    
+
 }
-.gallery-wrapper .gallery-title h2{
+
+.gallery-wrapper .gallery-title h2 {
     font-weight: 700;
     font-size: 28px;
     line-height: 38px;
@@ -255,14 +260,16 @@ gallery section
     padding: 30px 0;
 }
 
-.gallery-slider{
+.gallery-slider {
     padding: 40px;
 }
-.gallery-slider img{
-margin:  10px;
+
+.gallery-slider img {
+    margin: 10px;
     max-width: 95%;
 }
-.gallery-slider h2 a{
+
+.gallery-slider h2 a {
     text-decoration: none;
     font-weight: 700;
     font-size: 17px;
@@ -278,7 +285,7 @@ slick slider css
     bottom: 10px
 }
 
-.slick-dots li button:before{
+.slick-dots li button:before {
     background-color: #333;
     border-radius: 25px;
     width: 10px;
@@ -297,13 +304,14 @@ slider button css
 
 .slick-prev:before {
     font-size: 33px;
-    content: 	"<";
+    content: "<";
     font-weight: bold;
     opacity: 1;
     color: #0367af;
 }
+
 .slick-next {
-     position: absolute;
+    position: absolute;
     top: 50%;
     left: 100%;
     z-index: 9;
@@ -313,7 +321,7 @@ slider button css
 
 .slick-next:before {
     font-size: 33px;
-    content: 	">";
+    content: ">";
     font-weight: bold;
     opacity: 1;
     color: #0367af;
@@ -326,18 +334,18 @@ slider button css
 }
 
 .slick-prev:focus {
-    
+
     outline: none;
     background: transparent;
 }
 
 .slick-next:hover {
-     outline: none;
+    outline: none;
     background: transparent;
 }
 
 .slick-next:focus {
-     outline: none;
+    outline: none;
     background: transparent;
 }
 
@@ -345,29 +353,32 @@ slider button css
 footer section 
 =========*/
 
-.main-footer{
+.main-footer {
     background-color: #ffc77a;
     padding: 20px 0;
-    
+
 }
-.main-footer .title h3{
+
+.main-footer .title h3 {
     color: #0367af;
     font-weight: 700;
     font-size: 20px;
     line-height: 20px
 }
 
-.main-footer .list-icons{
+.main-footer .list-icons {
     font-size: 15px;
     font-weight: 700;
     line-height: 25px;
 }
+
 .main-footer .list-icons li i {
     margin-right: 15px;
     font-size: 20px;
     line-height: 30px;
     color: #0367af;
 }
+
 .main-footer .social-links {
     margin: 20px 0;
     list-style: none;
@@ -391,6 +402,7 @@ footer section
 .main-footer .social-links .facebook {
     background-color: #3B5998
 }
+
 .main-footer .social-links .linkedin {
     background-color: #0077B5
 }
@@ -400,7 +412,7 @@ footer section
 }
 
 
-.sub-footer{
+.sub-footer {
     background-color: #f26d3e;
     padding: 20px
 }
@@ -417,36 +429,58 @@ Mobile devices
 ******/
 
 @media (max-width:480px) {
-    
-.hero-main-box {
-    height: 65vh;
-    max-width: 450px;
-    margin: 20px auto;
-    text-align: center;
-}
 
-.hero-main-box i {
-    font-size: 30px;
-}
+    .hero-main-box {
+        height: 80vh;
+        max-width: 450px;
+        margin: 20px auto;
+        text-align: center;
+    }
 
-.hero-main-box .hero-title h4 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 20px 0;
-}
-.hero-main-top {
-    margin: 20px 0;
-}
+    .hero-main-box i {
+        font-size: 30px;
+    }
 
-.hero-sub {
-    padding-bottom: 20px;
-}
-    
-    
-    .cta .container{
+    .hero-main-box .hero-title h4 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        padding: 20px 0;
+    }
+
+    .hero-main-top {
+        margin: 20px 0;
+    }
+
+    .hero-sub {
+        padding-bottom: 20px;
+    }
+
+
+    .cta .container {
         margin-top: 20px;
     }
+    .cta-single-item{
+        border: none;
+    }
+
+
+    .cta-icon {
+        font-size: 20px !important;
+    }
+.cta-p {
+    font-size: 20px !important;
+}
+    .slick-prev {
+
+        margin-left: 20px;
+
+    }
+
+    .slick-next {
+        margin-left: -20px;
+    }
+
 }
 
 /*******
@@ -454,16 +488,31 @@ Mobile devices
 ******/
 
 @media (max-width:768px) {
-  
 
+    .hero-main-box {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .hero-main-box i {
+        font-size: 45px;
+        padding: 20px 0;
     }
     
-    
-    
-    
+     .cta-single-item{
+        border: none;
+    }
+
+
+    .cta-icon {
+        font-size: 25px !important;
+    }
+.cta-p {
+    font-size: 25px !important;
 }
 
 
+}
 
 
 
@@ -471,10 +520,11 @@ Mobile devices
 990 px max 
 ===========*/
 @media (max-width:990px) {
-    
-    .cta-icon{
+
+    .cta-icon {
         font-size: 12px;
     }
+
     .cta-p {
         font-size: 12px
     }
@@ -485,8 +535,4 @@ Mobile devices
 /*******
 Small screens, laptops
 ******/
-@media (max-width:1024px) {
-    
-}
-
-
+@media (max-width:1024px) {}
